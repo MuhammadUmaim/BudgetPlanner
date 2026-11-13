@@ -1,0 +1,75 @@
+{
+  "app": {
+    "name": "clearmoney",
+    "tagline": "Financial clarity, on your terms",
+    "description": "A thoughtful monthly plan, built around your real life."
+  },
+  "header": {
+    "incomeLabel": "Monthly take-home",
+    "reset": "Reset budget",
+    "toggleSound": "Toggle interface sounds"
+  },
+  "profile": {
+    "heading": "Your household",
+    "note": "You can adjust every category next."
+  },
+  "planner": {
+    "heading": "Shape your allocation",
+    "autoBalance": "Auto-balance",
+    "manual": "Manual",
+    "addCategory": "Add a category",
+    "addCategoryHint": "Make room for another priority"
+  },
+  "chart": {
+    "heading": "Your monthly plan",
+    "bigPicture": "The big picture",
+    "normalize": "Normalize to 100%",
+    "footnote": "Every rupee has a role."
+  },
+  "advice": {
+    "heading": "Worth a thought",
+    "guidance": "A little guidance",
+    "disclaimer": "For planning purposes only — not professional financial advice."
+  },
+  "table": {
+    "heading": "Monthly breakdown",
+    "details": "The details",
+    "total": "Total allocated"
+  },
+  "export": {
+    "heading": "Keep a copy",
+    "caption": "Your plan, ready when you need it.",
+    "csv": "Download CSV",
+    "copy": "Copy summary",
+    "print": "Print / Save as PDF"
+  },
+  "health": {
+    "heading": "Budget health",
+    "checkup": "Plan checkup",
+    "strong": "Strong",
+    "balanced": "Balanced",
+    "needsAttention": "Needs attention",
+    "levers": "Biggest levers",
+    "good": "No urgent levers — your plan is in good shape.",
+    "ruleOfThumb": "Rule of thumb",
+    "ruleNote": "The 50/30/20 rule of thumb — a rough guide, not a target."
+  },
+  "modal": {
+    "add": "Add a category",
+    "edit": "Edit category",
+    "cancel": "Cancel",
+    "save": "Save changes",
+    "delete": "Delete category",
+    "close": "Close dialog",
+    "name": "Category name",
+    "color": "Category color",
+    "allocation": "Starting allocation",
+    "allocationHint": "This amount is shared proportionally from your unlocked categories."
+  },
+  "toast": {
+    "reset": "Your budget has been reset.",
+    "copied": "Budget summary copied.",
+    "clipboard": "Could not access the clipboard. Check your browser permissions."
+  },
+  "footer": "Made for a little more financial peace."
+}

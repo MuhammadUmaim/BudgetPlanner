@@ -1,0 +1,38 @@
+# Node dependencies
+node_modules/
+.npm
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+
+# Cache and temp
+.vite/
+.vite-temp/
+.vitest-cache/
+node_modules/.tmp/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor & AI settings
+.vscode/
+.idea/
+.claude/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db

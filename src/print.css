@@ -1,0 +1,35 @@
+@page { size: A4 portrait; margin: 12mm; }
+@media print {
+  html, body { min-width: 0 !important; background: #fff !important; color: #111827 !important; }
+  body { font-family: Inter, Arial, sans-serif !important; font-size: 9pt; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .app-content { display: block !important; position: fixed !important; top: 0 !important; left: -12000px !important; width: 1200px !important; visibility: hidden !important; }
+  .dot-grid, .modal-backdrop, .toast { display: none !important; }
+  .print-report { display: block !important; width: 100%; color: #111827; }
+  .print-header { display: flex; justify-content: space-between; align-items: end; padding-bottom: 14px; border-bottom: 1px solid #D9DDE5; }
+  .print-header h1 { margin: 4px 0 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 25pt; letter-spacing: -.06em; }
+  .print-header > p { margin: 0 0 3px; color: #6B7280; font-size: 8pt; }
+  .print-kicker { margin: 0; color: #6B7280; font-size: 7pt; font-weight: 700; letter-spacing: .13em; }
+  .print-meta { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; padding: 14px 0 17px; }
+  .print-meta div { display: grid; gap: 4px; }
+  .print-meta span { color: #6B7280; font-size: 7pt; }
+  .print-meta strong { font-size: 12pt; font-weight: 700; }
+  .print-body { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, .8fr); gap: 20px; align-items: start; }
+  .print-report table { border-collapse: collapse; width: 100%; font-size: 8pt; }
+  .print-report th, .print-report td { padding: 6px 5px; border-bottom: 1px solid #ECEEF2; text-align: left; }
+  .print-report thead th { color: #6B7280; font-size: 7pt; }
+  .print-report td:nth-child(2), .print-report td:nth-child(3), .print-report th:nth-child(2), .print-report th:nth-child(3) { text-align: right; white-space: nowrap; }
+  .print-report tfoot th, .print-report tfoot td { border-top: 1px solid #C9CDD5; border-bottom: 0; font-weight: 700; }
+  .print-chart { padding: 11px; border: 1px solid #E5E7EB; border-radius: 10px; }
+  .print-donut { position: relative; display: grid; place-items: center; width: 120px; height: 120px; margin: 12px auto; border-radius: 50%; background: var(--donut-gradient); }
+  .print-donut::before { content: ''; position: absolute; inset: 17px; border-radius: 50%; background: #fff; }
+  .print-donut span { position: relative; z-index: 1; display: grid; text-align: center; font-size: 15pt; font-weight: 700; }
+  .print-donut small { color: #6B7280; font-size: 7pt; font-weight: 400; }
+  .print-legend { display: grid; grid-template-columns: 1fr 1fr; gap: 5px 8px; }
+  .print-legend span { display: flex; align-items: center; gap: 5px; color: #4B5563; font-size: 6.5pt; }
+  .print-legend i { width: 6px; height: 6px; border-radius: 50%; }
+  .print-advice { margin-top: 15px; padding: 11px 13px; border: 1px solid #E5E7EB; border-radius: 9px; }
+  .print-advice h2 { margin: 0 0 8px; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 10pt; }
+  .print-advice p { margin: 4px 0; color: #4B5563; font-size: 7.5pt; line-height: 1.4; }
+  .print-footer { margin-top: 12px; color: #808694; font-size: 7pt; }
+  * { box-shadow: none !important; }
+}
